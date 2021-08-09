@@ -4,6 +4,7 @@ Python code for creating pdf with Aruco Markers. User can write the text file fo
 Below is a sample text file, also included in this repository as 'sample.txt'.
 
 ----------------------------------------
+
 FORMAT: A4
 ORIENTATION: PORTRAIT
 UNIT: mm
@@ -12,6 +13,7 @@ LIBRARY: DICT_6X6_250
 5 48 200 1
 
 5 48 200 2
+
 ----------------------------------------
 
 This file will create pdf with A4 format, portrait orientation, unit in mm, and markers with dictionary 'DICT_6X6_250'.
