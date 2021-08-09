@@ -9,14 +9,17 @@ ORIENTATION: PORTRAIT\
 UNIT: mm\
 LIBRARY: DICT_6X6_250
 
-5 48 200 1
+15 58 80 1\
+115 158 80 2
 
-5 48 200 2
+15 58 80 3\
+115 158 80 4
 
 ---------------------------------
 
 This file will create pdf with A4 format, portrait orientation, unit in mm, and markers with dictionary 'DICT_6X6_250'.
-Running pdf_generator.py with filename as 'sample' will generate a pdf with two pages with one marker on each page.
+Running pdf_generator.py with filename as 'sample' will generate a pdf with two pages with two markers on each page.
+PDF file will be named the same as the text file, so sample.pdf in this case.
 
 For each line, first two numbers denote the x and y coordinates within the page with defined unit.
 Third number denotes the size of each marker, also with defined unit.
